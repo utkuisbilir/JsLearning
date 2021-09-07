@@ -1,3 +1,4 @@
+
 // Nesting Conditionals
 
 // Password should be 6+ characters 
@@ -13,6 +14,7 @@ if (password.length >= 6) {
     }
 } else {
     console.log("Password too short. Must be 6+ characters.")
+<<<<<<< HEAD
 } */
 
 // Logical Operations;
@@ -52,3 +54,4 @@ if (age >= 0 && age <= 150) {
 } else {
     console.log("Invalid age.")
 }
+
