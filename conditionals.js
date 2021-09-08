@@ -14,7 +14,6 @@ if (password.length >= 6) {
     }
 } else {
     console.log("Password too short. Must be 6+ characters.")
-<<<<<<< HEAD
 } */
 
 // Logical Operations;
@@ -42,7 +41,7 @@ if ((age >= 0 && age < 5) || age > 65) {
     console.log("Invalid Age.")
 } */
 
-const age = prompt("Enter your age.");
+/* const age = prompt("Enter your age.");
 if (age >= 0 && age <= 150) {
     if (age < 5 || age > 65) {
         console.log("Free ticket.")
@@ -53,5 +52,37 @@ if (age >= 0 && age <= 150) {
     }
 } else {
     console.log("Invalid age.")
-}
+} */
 
+// Logical Not
+/* let firstName = prompt("Enter your first name");
+if (!firstName) {
+    prompt("Try again!!!")
+} */
+
+// Switch Statement
+
+const day = 6;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+    case 7:
+        console.log("Weekend");
+        break;
+    default:
+        console.log("Not a day.");
+}
